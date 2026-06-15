@@ -17,7 +17,7 @@ function Footer() {
                 <div className="col">
                     <p>Account</p>
                     <a href="" style={{textDecoration:"none",color:"#666"}}>Open demat account</a> <br />
-                    <a href=""className='mt-3'style={{textDecoration:"none",color:"#666",marginTop:"1rem"}}>Minor demat account</a><br />
+                    <a href="" className='mt-3'style={{textDecoration:"none",color:"#666",marginTop:"1rem"}}>Minor demat account</a><br />
                     <a href="" style={{textDecoration:"none",color:"#666",marginTop:"1rem"}}>NRI demat account</a><br />
                     <a href="" style={{textDecoration:"none",color:"#666",marginTop:"1rem"}}>HUF demat account</a><br />
                     <a href="" style={{textDecoration:"none",color:"#666",marginTop:"1rem"}}>Commodity</a><br />

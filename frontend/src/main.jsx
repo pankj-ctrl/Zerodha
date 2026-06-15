@@ -7,9 +7,12 @@ import PricingPage from "./landing_page/pricing/PricingPage.jsx"
 import ProductPage from "./landing_page/products/ProductPage.jsx"
 import SupportPage from "./landing_page/support/SupportPage.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './landing_page/Navbar.jsx'
+import Footer from './landing_page/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+  <Navbar/>
     <Routes>
       <Route path='/' element={<HomePage />}  ></Route>
       <Route path='/signup' element={<SignupPage/> }  ></Route>
@@ -18,5 +21,6 @@ createRoot(document.getElementById('root')).render(
       <Route path='/support' element={<SupportPage />}  ></Route>
        <Route path='/products' element={<ProductPage/>}  ></Route>
     </Routes>
+    <Footer/>
   </BrowserRouter>
 )
