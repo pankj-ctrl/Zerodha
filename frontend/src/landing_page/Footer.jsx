@@ -8,10 +8,10 @@ function Footer() {
                     <img src="/public/Assets/logo.svg" alt="logo image" style={{ width: "80%" }} />
                     <p className='mt-3'  style={{color:"#666",fontSize:"0.78rem"}}>©2010 - 2026, Zerodha Broking Ltd.</p>
                     <p  style={{color:"#666",fontSize:"0.78rem"}}>All rights reserved.</p>
-                    <i class="fa-brands fa-x-twitter" style={{marginRight:"0.8rem" , fontSize:"1.5rem",color:"#666"}}></i>
-                    <i class="fa-brands fa-square-facebook" style={{marginRight:"0.8rem",fontSize:"1.5rem",color:"#666"}}></i>
-                    <i class="fa-brands fa-instagram" style={{marginRight:"0.8rem",fontSize:"1.5rem",color:"#666"}}></i>
-                    <i class="fa-brands fa-linkedin-in" style={{marginRight:"0.8rem",fontSize:"1.5rem" , color:"#666"}}></i>
+                    <i className="fa-brands fa-x-twitter" style={{marginRight:"0.8rem" , fontSize:"1.5rem",color:"#666"}}></i>
+                    <i className="fa-brands fa-square-facebook" style={{marginRight:"0.8rem",fontSize:"1.5rem",color:"#666"}}></i>
+                    <i className="fa-brands fa-instagram" style={{marginRight:"0.8rem",fontSize:"1.5rem",color:"#666"}}></i>
+                    <i className="fa-brands fa-linkedin-in" style={{marginRight:"0.8rem",fontSize:"1.5rem" , color:"#666"}}></i>
 
                 </div>
                 <div className="col">
