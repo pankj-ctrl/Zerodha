@@ -12,7 +12,7 @@ import Footer from './landing_page/Footer.jsx'
 import NotFound from './landing_page/NotFound.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
   <Navbar/>
     <Routes>
       <Route path='/' element={<HomePage />}  ></Route>
@@ -24,5 +24,5 @@ createRoot(document.getElementById('root')).render(
        <Route path='*' element={<NotFound/>} />
     </Routes>
     <Footer/>
-  </BrowserRouter>
+  </HashRouter>
 )
