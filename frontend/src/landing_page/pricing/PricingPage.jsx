@@ -1,6 +1,14 @@
+import Brokerage from "./Brokerage";
+import Hero from "./Hero";
+import PricingTabs from "./PricingTabs";
+import SecondPricingTabs from "./SecondPricingTabs";
+
 function PricingPage() {
     return ( <div>
-        Pricing Page
+        <Hero/>
+        <PricingTabs/>
+        <SecondPricingTabs/>
+        <Brokerage/>
     </div> );
 }
 
